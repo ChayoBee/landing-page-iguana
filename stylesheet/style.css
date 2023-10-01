@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
+
+body {
+    background-color: black;
+}
+
+.titulo {
+    font-family: 'Raleway';
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+}
+
+.banner {
+    background-image: url('../assets/img/bg-iguana.jpg');
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.description {
+    display: flex;
+    padding: 50px;
+    gap: 30px;
+}
+
+.text {
+    width: 60%;
+    color: white;
+    margin: 0px;
+    font-size: 20px;
+    font-family: Raleway, sans-serif;
+
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 200px;
+    margin: 0px;
+}
+
+.img1 img {
+    width: 300px;
+}
+
+.caract {
+    width: 100%;
+    color: white;
+    background-color: #1E1A13;
+    padding: 50px;
+}
+
+.subtitulo {
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 25px;
+    width: 100%;
+}
+
+.icon {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.icon div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon i {
+    font-size: 50px;
+    margin-bottom: 7px;
+
+}
+
+.icon p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+
+}
+
+.example {
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+    padding-top: 25px;
+}
+
+.example img {
+    height: 250px;
+    width: 100%;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: #1E1A13;
+}
